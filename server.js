@@ -18,7 +18,8 @@ app.get('/api/restaurants/:id/gallery', (req, res) => {
   res.redirect(`http://13.57.148.57/api/restaurants/${req.params.id}/gallery`)
 });
 app.get('/api/restaurants/:id/overview', (req, res) => {
-  res.redirect(`http://184.169.248.150/api/restaurants/${req.params.id}/overview`)
+	console.log(req.params.id)
+  res.redirect(`http://localhost:3002/api/restaurants/${req.params.id}/overview`)
 });
 app.get('/api/restaurants/:id/sidebar', (req, res) => {
   res.redirect(`http://54.177.233.239/api/restaurants/${req.params.id}/sidebar`)
