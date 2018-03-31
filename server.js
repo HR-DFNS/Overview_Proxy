@@ -18,8 +18,7 @@ app.get('/api/restaurants/:id/gallery', (req, res) => {
   res.redirect(`http://13.57.148.57/api/restaurants/${req.params.id}/gallery`)
 });
 app.get('/api/restaurants/:id/overview', (req, res) => {
-	console.log(req.params.id)
-  res.redirect(`http://localhost:3002/api/restaurants/${req.params.id}/overview`)
+  res.redirect(`http://13.57.211.28:3002/api/restaurants/${req.params.id}/overview`)
 });
 app.get('/api/restaurants/:id/sidebar', (req, res) => {
   res.redirect(`http://54.177.233.239/api/restaurants/${req.params.id}/sidebar`)
@@ -28,6 +27,6 @@ app.get('/api/restaurants/:id/recommendations', (req, res) => {
   res.redirect(`http://52.89.102.101/api/restaurants/${req.params.id}/recommendations`)
 });
 
-app.listen(port, () => {
-  console.log(`server running at: http://localhost:${port}`)
-});
+// app.listen(port, () => {
+//   console.log(`server running at: http://localhost:${port}`)
+// });

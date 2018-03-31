@@ -1,0 +1,6 @@
+{ 
+  "App": "http://g-1938099559.us-west-1.elb.amazonaws.com/restaurants/id/bundle",
+ 
+  "Sidebar": "http://18.144.71.60:3003/bundle"
+  
+}
